@@ -28,6 +28,14 @@ this.numeroPaginas = numeroPaginas;
       
 }
 
+
+@Override
+public String toString(){
+return "Libro{titulo=` , + titulo , +autor= + autor + ", numeroPaginas= + numeroPaginas + }";
+   
+    
+}
+
     public String getTitulo() {
         return titulo;
     }
